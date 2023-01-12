@@ -11,12 +11,16 @@ public class LockCursor : MonoBehaviour
         //How to lock the Cursor in Unity :)
         void Start()
         {
-           Cursor.lockState = CursorLockMode.Locked; //Locked
+           //Locked
+           Cursor.lockState = CursorLockMode.Locked;
            
-           Cursor.lockState = CursorLockMode.None; //UnLocked
+           //UnLocked
+           //Cursor.lockState = CursorLockMode.None;
            
-           Cursor.visible = true; //Cursor is visible
+           //Cursor is visible
+           //Cursor.visible = true;
            
-           Cursor.visible = false; //Cursor is invisible
+           //Cursor is invisible
+           Cursor.visible = false;
         }
 }
